@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Maryana Alhawamdeh</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/0edb311df1.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Dancing+Script:wght@400;500;600;700&family=Oswald:wght@200;300;400;500;600;700&family=Pacifico&family=Pathway+Gothic+One&family=Patrick+Hand&family=Work+Sans:wght@100&family=Yellowtail&display=swap" rel="stylesheet">
 
@@ -117,46 +118,61 @@
         
        }
        #contact{
-        border: 1px solid #B7A878;
+        /* border: 1px solid #B7A878;
+       
         display: flex;
         flex-direction: column;
         margin-top: 20px;
         margin-bottom: 20px;
         align-items: center;
-        background: none;
+        background: none; */
+       
 
        }
        .con_it{
         border: 1px solid #B7A878;
+        
         display: flex;
         flex-direction: column;
         margin-top: 20px;
         margin-bottom: 20px;
         align-items: center;
         background: none;
+        font-size: 25px;
 
        }
        #foot{
         background-color: black;
+        
        }
-       .footer{
-       text-align: center;
-        border: 1px solid #B7A878;
-        background-color: black;
+  .footer{
+   text-align: center;
+    border: 1px solid #B7A878;
+   background-color: black;
+  
        }
-       .li_ed:hover .image{
-        opacity: 0.3;
+    .li_ed:hover .image{
+    opacity: 0.3;
        }
-       .image{
-        opacity: 1;
+ .image{
+   opacity: 1;
   display: block;
   width: 100%;
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
 
-       }
-       .middle {
+ }
+ .image2{
+    opacity: 1;
+  display: block;
+  width: 100%;
+  height: 100%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+    
+ }
+ .middle {
   transition: .5s ease;
   opacity: 0;
   position: absolute;
@@ -172,10 +188,21 @@
 .text{
     background-color: #04AA6D;
   color: rgb(18, 18, 18);
-  font-size: 16px;
+  font-size: 25px;
   padding: 16px 32px;
 
 }
+
+@media (min-width: 576px) {  }
+
+
+@media (min-width: 768px) {  }
+
+
+@media (min-width: 992px) {  }
+
+
+@media (min-width: 1200px) {  }
        
     </style>
 </head>
@@ -235,7 +262,8 @@
                         
                     </li>
                     <li class="li_ed">
-                        <!-- <img src="./akadymy-aoranj-llbrmj-tdaam-alshbab-fy-mjal-albrmj-fydyoa.png" alt="orange" class="image2"> -->
+                        <img src="./akadymy-aoranj-llbrmj-tdaam-alshbab-fy-mjal-albrmj-fydyoa.png" alt="orange" class="image2">
+
                        
                     </li>
                 </ul>
@@ -281,22 +309,23 @@
 
 
         </section>
-        <section id="Contact">
-            <form class="con_it">
-                <label for="name">Your Name:</label>
-                <input type="text" name="name" place_holder="Enter your name">
-                <label for="email">Your Email:</label>
-                <input type="email" name="email" place_holder="Enter your email">
-                <label for="message">Your message:</label>
-                <textarea name="message" rows="4" cols="25"></textarea>
-                <input type="submit" value="send to me">
-
-            </form>
            
-        </section>      
 
     </main>
     <footer>
+        <section id="Contact">
+            <form class="con_it">
+                <label for="name">Your Name:</label>
+                <input type="text" name="name" >
+                <label for="email">Your Email:</label>
+                <input type="email" name="email" >
+                <label for="message">Your message:</label>
+                <textarea name="message" rows="4" cols="50"></textarea>
+                <input type="submit" value="send to me"style="font-size:25px;">
+
+            </form>
+           
+        </section>  
         <section id="foot">
             <div class="footer">
                 <i class="fa-solid fa-envelope" style="color: #c3843c; "> maryana.alhawamdah8@gmail.com</i><br>
